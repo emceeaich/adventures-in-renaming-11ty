@@ -8,8 +8,13 @@
     "path": "/feed/feed.xml",
     "id": "https://adventuresinrenaming.net/"
   },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://adventuresinrenaming.net/feed/feed.json"
+  },
   "author": {
     "name": "Emma C. Humphries",
-    "email": "ech@emmah.net"
+    "email": "me@emmah.net",
+    "url": "https://emmah.net/"
   }
 }
