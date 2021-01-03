@@ -5,8 +5,10 @@ eleventyNavigation:
   order: 1
 ---
 
+<p><i>A blog about names, gender, people, computers, and systems.</i></p>
+
 {% set maxPosts = collections.posts.length | min(6) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}Posts{% endif %}</h1>
+<h2>Latest {% if maxPosts == 1 %}Post{% else %}Posts{% endif %}</h2>
 
 {% set postslist = collections.posts | head(-6) %}
 {% set postslistCounter = collections.posts | length %}
