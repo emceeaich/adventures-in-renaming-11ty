@@ -54,8 +54,4 @@ Other states will refuse to change the gender marker on your ID.
 
 Changing one’s name, to be consistent with Facebook’s policies, is non-trivial. It’s an expensive, time consuming process that excludes people who don’t have access to resources, health care, and free time.
 
-To save your users’ time and money, remember this:
-
-This is a trivial matter.
-
 *This post was [originally published on Medium](https://medium.com/gender-2-0/but-why-don-t-you-change-your-name-edb29297a73f).*
