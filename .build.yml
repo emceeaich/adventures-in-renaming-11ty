@@ -9,7 +9,7 @@ secrets:
 sources:
 - git@git.sr.ht:~emceeaich/adventures-in-renaming-11ty
 environment:
-  site: adventuresinrenaming.emmah.dev
+  site: adventuresinrenaming.net
   repo: adventures-in-renaming-11ty
   # Disable npm progress bar
   # https://docs.npmjs.com/cli/v9/using-npm/config#progress
