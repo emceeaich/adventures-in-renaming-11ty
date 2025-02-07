@@ -4,6 +4,10 @@ packages:
   - nodejs
   - npm
 oauth: pages.sr.ht/PAGES:RW
+secrets:
+- 7562c2fd-1ce8-4e3a-be2b-8ede538f9bfa
+sources:
+- git@git.sr.ht:~emceeaich/adventures-in-renaming-11ty
 environment:
   site: adventuresinrenaming.emmah.dev
   repo: adventures-in-renaming-11ty
