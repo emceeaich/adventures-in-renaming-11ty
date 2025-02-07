@@ -1,0 +1,22 @@
+# Eleventy: https://www.11ty.dev/
+image: debian/stable
+packages:
+  - nodejs
+  - npm
+oauth: pages.sr.ht/PAGES:RW
+environment:
+  site: adventuresinrenaming.emmah.dev
+  repo: adventures-in-renaming-11ty
+  # Disable npm progress bar
+  # https://docs.npmjs.com/cli/v9/using-npm/config#progress
+  npm_config_progress: "false"
+tasks:
+- install: |
+    cd $repo
+    npm install
+- package: |
+    cd $repo
+    npx eleventy
+    tar -C _site -cvz . > ../site.tar.gz
+- upload: |
+    acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz
